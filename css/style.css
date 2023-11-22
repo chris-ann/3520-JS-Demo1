@@ -33,6 +33,7 @@ body {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 .box h2 {
     font-size: 1.5em;
@@ -75,4 +76,11 @@ a {
     background-image: url("../imgs/tv.jpeg");
     background-size: cover;
     background-position: center;
+}
+.open {
+    font-size: 30px;
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer
 }
